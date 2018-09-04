@@ -3,7 +3,7 @@
 
 This is a PERL script. No compilation is necessary.  If you really want to, you can see a working version by telnetting to port 3000 on a server running out of my home.  Do it like this:
 
-adomingo@adomingo-4907: ~/Desktop/myfitnesspal $ telnet 24.130.132.117 3000
+<PRE>adomingo@adomingo-4907: ~/Desktop/myfitnesspal $ telnet 24.130.132.117 3000
 Trying 24.130.132.117...
 Connected to c-24-130-132-117.hsd1.ca.comcast.net.
 Escape character is '^]'.
@@ -20,7 +20,7 @@ Content-Length: 28
 }
 </PRE>
 Connection closed by foreign host.
-adomingo@adomingo-4907: ~/Desktop/myfitnesspal $
+adomingo@adomingo-4907: ~/Desktop/myfitnesspal $</PRE>
 
 Instructions on how to run your service locally:
 
