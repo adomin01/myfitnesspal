@@ -1,7 +1,26 @@
 # myfitnesspal
 * Instructions on how to compile your service:
 
-This is a PERL script. No compilation is necessary.
+This is a PERL script. No compilation is necessary.  If you really want to, you can see a working version by telnetting to port 3000 on a server running out of my home.  Do it like this:
+
+adomingo@adomingo-4907: ~/Desktop/myfitnesspal $ telnet 24.130.132.117 3000
+Trying 24.130.132.117...
+Connected to c-24-130-132-117.hsd1.ca.comcast.net.
+Escape character is '^]'.
+GET /chats/arnold HTTP/1.0
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Server: Mojolicious (Perl)
+Date: Tue, 04 Sep 2018 21:41:34 GMT
+Content-Length: 28
+
+<PRE>{
+   "id" : 1
+}
+</PRE>
+Connection closed by foreign host.
+adomingo@adomingo-4907: ~/Desktop/myfitnesspal $
 
 Instructions on how to run your service locally:
 
