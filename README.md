@@ -1,7 +1,7 @@
 # myfitnesspal
-Instructions on how to compile your service:
+* Instructions on how to compile your service:
 
-* This is a PERL script. No compilation is necessary.
+This is a PERL script. No compilation is necessary.
 
 Instructions on how to run your service locally:
 
