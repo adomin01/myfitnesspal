@@ -1,6 +1,4 @@
 # myfitnesspal
-simulation problem for interview
-
 Instructions on how to compile your service:
 
 This is a PERL script. No compilation is necessary.
