@@ -7,18 +7,29 @@ This is a PERL script. No compilation is necessary.  If you really want to, you 
 Trying 24.130.132.117...
 Connected to c-24-130-132-117.hsd1.ca.comcast.net.
 Escape character is '^]'.
-GET /chats/arnold HTTP/1.0
+GET /chat/1 HTTP/1.0
 
 HTTP/1.1 200 OK
+Date: Tue, 04 Sep 2018 21:46:27 GMT
+Content-Length: 365
 Content-Type: text/html;charset=UTF-8
 Server: Mojolicious (Perl)
-Date: Tue, 04 Sep 2018 21:41:34 GMT
-Content-Length: 28
 
-<PRE>{
+{
+   "1535844846" : {
+      "text" : "This is a test.",
+      "expiration_date" : "Sat Sep  1 16:35:06 2018"
+   },
+   "1535844855" : {
+      "expiration_date" : "Sat Sep  1 16:35:00 2018",
+      "text" : "blah blah"
+   },
+   "1535947138" : {
+      "expiration_date" : "Sun Sep  2 21:19:32 2018",
+      "text" : "here's another test"
+   },
    "id" : 1
 }
-</PRE>
 Connection closed by foreign host.
 adomingo@adomingo-4907: ~/Desktop/myfitnesspal $</PRE>
 
