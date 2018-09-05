@@ -33,9 +33,11 @@ Server: Mojolicious (Perl)
 Connection closed by foreign host.
 adomingo@adomingo-4907: ~/Desktop/myfitnesspal $</PRE>
 
-Instructions on how to run your service locally:
+* Instructions on how to run your service locally:
 
 Most linux systems come with PERL. So using a Linux machine to run it is highly preferred (by me). It might work on a windows machine but I haven't tested it and a PERL interpreter needs to be installed, etc.  Simply explode the tarball and just run the script as yourself by typing something like "perl ./simulation_problem.pl". There is no need to be root.
+
+Actually the script assumes that the json database file is in your home directory.  So you might want to explode this to your home directory on whatever linux machine this is being run on
 
 * The decisions you made:
 
