@@ -51,6 +51,8 @@ It's also a hybrid of function oriented and object oriented code.  There are peo
 
 I set it to be able to create a max of 100 users but that can easily be extended.  That number is hardcoded because I was in a rush.  There's also the possibility of a race condition if millions of people start using this at the same time.  A couple of them might get the same userid and then who knows what'll happen.
 
+It also uses a file for a database.  But if for an actual production system we probably want a REAL database.  Since no transactions are going to be taking place I'd probably go with a NoSQL database like Cassandra but that's just me.
+
 * What you would do if you had more time:
 
 Well, as I previously mentioned, there's this race condition.  It should be extremely rare, and since this is only for an assessment it's probably never going to be an issue.  But if I intended to open this up to the whole world then I'd probably fix that.
